@@ -102,7 +102,7 @@ button:hover {
     top: 50%;
     transform: translateY(-50%);
     text-align:center;
-    padding-top: 13%;
+    padding-top: 30%;
 }
 .content2 h2 {
     font-size: 50px;
@@ -113,6 +113,34 @@ button:hover {
     font-weight: 100;
     line-height: 25px;
 }
+
+.content3 {
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:center;
+    padding-top: 30%;
+    visibility: collapse;
+}
+.content3 h2 {
+    font-size: 50px;
+    margin-top: 500px;
+}
+.content3 p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+@media (max-width: 400px) {
+    .content2 {
+        visibility: collapse;
+    }
+    .content3 {
+        visibility: visible;
+    }
+}
+
 .img_deg {
     float: left;
     width: 45%;
