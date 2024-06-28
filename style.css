@@ -100,7 +100,7 @@ button:hover {
 .content2 {
     width: 100%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(50%);
     text-align:center;
     padding-top: 30%;
 }
