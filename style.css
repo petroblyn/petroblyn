@@ -100,9 +100,9 @@ button:hover {
 .content2 {
     width: 100%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-35%);
     text-align:center;
-    padding-top: 30%;
+    padding-top: 20%;
 }
 .content2 h2 {
     font-size: 50px;
